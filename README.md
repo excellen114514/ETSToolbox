@@ -11,6 +11,8 @@ E听说外挂 一句不读轻松拿满 让你成为听说课上最靓的仔
 本项目*前后端分离*，前端仓库在[这里](https://github.com/Howie114514/ETSToolbox-js)
 
 ## 使用方法
+在[Releases](https://github.com/Howie114514/ETSToolbox/releases)里找到最新版本并下载
+
 将压缩文件全部解压到E听说安装目录下，启动E听说即可。弹出黑色控制台窗口即代表安装成功。
 
 按下F1打开控制面板，按F12可以打开网页控制台。
@@ -21,9 +23,11 @@ E听说外挂 一句不读轻松拿满 让你成为听说课上最靓的仔
 
 ---
 ## 构建教程
-需要先安装vcpkg（vs开发控制台应该自带）
+需要先安装vcpkg（使用经典模式，需要安装独立版并配置VCPKG_ROOT）
 运行
+
 `vcpkg install detours`
+
 用vs打开所处文件夹即可构建。构建成果为winmm.dll，可在src/CMakeLists.txt中修改E听说安装目录。
 
 ---
